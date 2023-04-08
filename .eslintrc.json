@@ -11,6 +11,10 @@
   },
   "rules": {
     "no-console": "off",
-    "max-len": ["error", { "code": 120 }]
+    "max-len": ["error", { "code": 120 }],
+    "import/no-extraneous-dependencies": 0,
+    "no-underscore-dangle": 0,
+    "no-restricted-globals": 0,
+    "linebreak-style": 0
   }
 }
